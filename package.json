@@ -1,0 +1,10 @@
+{
+  "name": "tailwind-nix",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "author": "",
+  "dependencies": {
+    "@tailwindcss/cli": ""
+  }
+}
