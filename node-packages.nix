@@ -1048,6 +1048,15 @@ let
         sha1 = "450d4dc9fa70de732762fbd2d4a28981419a0ccf";
       };
     };
+    "windicss-3.0.0" = {
+      name = "windicss";
+      packageName = "windicss";
+      version = "3.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/windicss/-/windicss-3.0.0.tgz";
+        sha512 = "NTiPaIAOOtt+HMUXGJ5agMCdaQq2o5kREElIpX4RSG8g3oy6/7YM+dSbQMNelrMHSxqD7X/7DztHja2Bm8HblA==";
+      };
+    };
     "wrappy-1.0.2" = {
       name = "wrappy";
       packageName = "wrappy";
@@ -1209,6 +1218,7 @@ let
       sources."to-regex-range-5.0.1"
       sources."universalify-2.0.0"
       sources."util-deprecate-1.0.2"
+      sources."windicss-3.0.0"
       sources."wrappy-1.0.2"
       sources."xtend-4.0.2"
     ];

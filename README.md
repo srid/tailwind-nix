@@ -3,3 +3,7 @@
 ```
 $(nix-build --no-out-link -A shell.nodeDependencies)/bin/tailwindcss
 ```
+
+## Related packages include
+
+- [WindiCSS](https://github.com/windicss/windicss)

@@ -5,6 +5,7 @@
   "scripts": {},
   "author": "",
   "dependencies": {
-    "@tailwindcss/cli": ""
+    "@tailwindcss/cli": "",
+    "windicss": ""
   }
 }
