@@ -987,8 +987,8 @@ let
     };
   };
   args = {
-    name = "banyon-tailwind";
-    packageName = "banyon-tailwind";
+    name = "srid-tailwind";
+    packageName = "srid-tailwind";
     version = "0.0.1";
     src = ./.;
     dependencies = [

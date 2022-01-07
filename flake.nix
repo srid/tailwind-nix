@@ -16,16 +16,17 @@
         tailwindPkgs = import ./default.nix {
           inherit pkgs system;
         };
-        
-        tailwind = let
-                      p = tailwindPkgs.package;
-                      node_modules = "${p}/lib/node_modules/banyon-tailwind/node_modules";
-                    in
-                    pkgs.writeShellScriptBin "tailwind"
-                      ''
-                        export NODE_PATH=${node_modules}
-                        exec ${node_modules}/.bin/tailwind $*
-                      '';
+
+        tailwind =
+          let
+            p = tailwindPkgs.package;
+            node_modules = "${p}/lib/node_modules/srid-tailwind/node_modules";
+          in
+          pkgs.writeShellScriptBin "tailwind"
+            ''
+              export NODE_PATH=${node_modules}
+              exec ${node_modules}/.bin/tailwind $*
+            '';
       in
       {
         # Used by `nix build` & `nix run`
