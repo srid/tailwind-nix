@@ -987,8 +987,8 @@ let
     };
   };
   args = {
-    name = "srid-tailwind";
-    packageName = "srid-tailwind";
+    name = "tailwind-nix";
+    packageName = "tailwind-nix";
     version = "0.0.1";
     src = ./.;
     dependencies = [
